@@ -411,7 +411,7 @@
 			"destination" : "R A 5-5,\nPrimordial,\nTitan",
 			"date" : "05/04/2056",
 			"story" : "\"Un milagro de los dioses...\"\nLo repites una y otra vez. ¿Estás loco? Nos sigues tratando como si fuéramos ignorantes cuando todo lo que intentamos fue SALVARTE.\n\nHaznos un favor y quédate con eso. Haz lo que quieras con ello, pero NO queremos verte por aquí nunca más. NO queremos ser parte de lo que sea que esté pasando contigo y esa cosa.\n\nTe está volviendo una persona codiciosa y sin alma, y espero que lo sepas..",
-			"priority": "<r>Volatile</c>"
+			"priority": "<r>Volátil</c>"
 		},
 		"strangeCan" : {
 			"name": "Lata Extraña",
@@ -457,8 +457,24 @@
 	"actor" : {
 		"Exploder.name" : "Estallador",
 		"Mimic.name" : "Cofre de seguridad",
+		"DroneHack.name" : "Dron de Hackeo",
 		"Admonitor.name" : "Admonitor de Arcilla",
+		"Follower.name" : "Seguidor",
+		"Wayfarer.name" : "Caminante",
+		"Wayfarer.text" : "Heraldo de la Luz",
+		"Overseer.name" : "Vidente",
+		"Overseer.text" : "Acechador entre Planos",
+		"mechanicalTotem.name" : "Totem Mecánico",
+		"mechanicalTotem.text" : "Sistema de Defensa Automatizado",
+		"archerbugHive.name" : "Colmena de Bichos arqueros",
+		"archerbugHive.text" : "not on wiki idk",
+		"sandcrabKing.name" : "Cangrejo de Arena Rey ",
+		"sandcrabKing.text" : "Monstruosidad Endurecida",
 		"Gatekeeper.name" : "Centinela",
+		"ultraProvi.name" : "Providencia Ultra",
+		"ultraProvi.text" : "Desenlace Soberano",
+		"Arraing.name" : "Veredicto",
+		"Arraign.text" : "El Juez",
 		"Protector.name" : "Protector",
 		"Protector.text" : "Guardián del Artefacto",
 		"nemmandoEnemy.name" : "Comando Némesis",
@@ -475,11 +491,15 @@
 		"TeleporterEthereal.text" : "Activar Teletransportador Etéreo.",
 		"TeleporterEthereal.text2" : "¡Esto incrementara la dificultad radicalmente!",
 		"MimicInactive.text" : "..?",
-		"MimicInactive.name" : "Cofre Grande..?"
+		"MimicInactive.name" : "Cofre Grande..?",
+		"DroneHackItem.text" : "Reparar Dron de Hackeo",
+		"DroneHackItem.name" : "Dron de Hackeo roto"
 	},
 
 	"elite" : {
-		"poison.name" : "Venenoso %s"
+		"poison.name" : "Venenoso %s",
+		"ethereal.name" : "Etéreo %s",
+		"ethereal.text" : "Testigo Transcendente",
 	},
 	"stage" : {
 		"whistlingBasin.name" : "Cuenca Silbante",
