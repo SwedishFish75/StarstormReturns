@@ -8,16 +8,31 @@
 		"typhoonEthereal.name" : "Huracán",
 	},
 	"alert" : {
-		"difficultyUp" : "Subida de Dificultad",
-		"storm" : "Una tormena se acerca...",
+		"difficultyUp" : "El poder del planeta crece...",
+
+		"event" : {
+			"storm" : "Una tormenta se aproxima...",
+			"wind" : "El viento sopla con gran fuerza...",
+			"dissonance" : "¡Una migración masiva te envuelve...!",
+			"heatwave" : "Una ola de calor abrasa el aire...",
+			"collapse" : "Tus alrededores comienzan a desmoronarse...",
+			"flood" : "Las mareas comienzan a elevarse...",
+
+			"eliteBlazing" : "El suelo se enciende en llamas...",
+			"eliteFrenzied" : "Las criaturas entran en un frenesí..",
+			"eliteLeeching" : "Las raíces drenadoras toman el control...",
+			"eliteOverloading" : "El aire chispea con estática...",
+			"eliteVolatile" : "Tus oídos comienzan a zumbar...",
+			"elitePoisoning" : "Un odor enfermizo permea el aire...",
+		}
 	},
 	"survivor" : {
 		"executioner" : {
 			"name" : "Verdugo",
 			"nameUpper" : "VERDUGO",
-			"description" : "El <y>Verdugo</c> es un luchador ágil especializado en contar cabezas. Usando Proyectores Iónicos, el Verdugo crea ilusiones las cuales hacen huir a los enemigos aterrorizados, al mismo tiempo que proyecta un hacha para acabar con los más fuertes. Asegúrate de encadenar eliminaciones con <y>Ráfaga Iónica</c> y <y>Ejecución</c> para mantener el daño constante.",
-			"endQuote" : "..y se marchó, pero sin su sed de sangre saciada.",
-			"story": "<ul>Detalles del pasajero:</c>\n<y>[Clase Militar]</c>\n\n<ul>Equipaje:</c>\nOficial abordó con uniforme de fibra de carbono del Oficial Actuante de EXN, sobretraje civil con placas de grado básico y una pistola de servicio emitida.\nEn el punto de control militar, se observó que el armamento del pasajero tenía una modificación adicional bajo el cañón, y fue autorizado tras acordar que se almacenaría en un contenedor seguro.\nEl pasajero también fue autorizado con una batería ION serie 204X personalizada con orificios de propulsión.\nComo medida de seguridad, los bienes tecnológicos del pasajero fueron equipados temporalmente con anuladores eléctricos automáticos y luego devueltos.\n\n<b>[REGISTRO DE SEGURIDAD]</c>\n\n<ul>[Nota E1a]</c> Se han reportado varios casos en los que el Pasajero pone nervioso al personal completo del punto de control de seguridad. Se requerirá vigilancia ligera hasta nuevo aviso.\n<ul>[Nota E1b]</c> El Pasajero respondía frecuentemente con sonidos en lugar de habla antes de optar por utilizar Lengua de Señas Universal.\n<ul>[Suceso E1]</c> Comando contratado realiza revisión de seguridad en los aposentos del Pasajero.\n<ul>[Suceso EM1a]</c> Comando contratado solicita vigilancia privada de 24 horas en el pasillo que conduce a los aposentos del Pasajero.\n<ul>[Suceso E2]</c> Se le pidió al Pasajero que cambiara de mesa durante la comida tras recibir una queja formal de otro Pasajero a la seguridad a bordo.",
+			"description" : "El <y>Verdugo</c> es un luchador ágil especializado en traer la muerte. Usando Proyectores Iónicos, el Verdugo crea ilusiones las cuales aterrorizados a los enemigos, a la vez que proyecta un hacha para acabar con los más fuertes. Asegúrate de encadenar muertes con <y>Ráfaga Iónica</c> y <y>Ejecución</c> para mantener un daño constante.",
+			"endQuote" : "...y se marchó, su sed de sangre aun presente.",
+			"story": "<ul>Detalles del pasajero:</c>\n<y>[Clase Militar]</c>\n\n<ul>Equipaje:</c>\nEl oficial abordó con uniforme de fibra de carbono del Oficial Actuante de EXN, sobretraje civil con placas de grado básico y una pistola estandar emitida.\nEn el punto de control militar, se observó que el armamento del pasajero tenía una modificación adicional bajo el cañón, y fue autorizado tras acordar que se almacenaría en un contenedor seguro.\nEl pasajero también fue autorizado con una batería ION serie 204X personalizada con orificios de propulsión.\nComo medida de seguridad, los bienes tecnológicos del pasajero fueron equipados temporalmente con anuladores eléctricos automáticos y luego devueltos.\n\n<b>[REGISTRO DE SEGURIDAD]</c>\n\n<ul>[Nota E1a]</c> Se han reportado varios casos en los que el Pasajero pone nervioso al personal completo del punto de control de seguridad. Se requerirá vigilancia ligera hasta nuevo aviso.\n<ul>[Nota E1b]</c> El Pasajero respondía frecuentemente con sonidos en lugar de habla antes de optar por utilizar Lengua de Señas Universal.\n<ul>[Suceso E1]</c> Comando contratado realiza revisión de seguridad en los aposentos del Pasajero.\n<ul>[Suceso EM1a]</c> Comando contratado solicita vigilancia privada de 24 horas en el pasillo que conduce a los aposentos del Pasajero.\n<ul>[Suceso E2]</c> Se le pidió al Pasajero que cambiara de mesa durante la comida tras recibir una queja formal de otro Pasajero a la seguridad a bordo.",
 			"id" : "Travel ID: 4383354378334FF3D34D",
 			"departure" : "<y>Origen:</c>\nVieja Alcatraz,\nRustborough,\nMarte",
 			"arrival" : "<y>Destino:</c>\nBahía Stillwater,\nNewdredge,\nEuropa"
@@ -25,8 +40,8 @@
 		"mule" : {
 			"name" : "MONTACARGAS",
 			"nameUpper" : "MONTACARGAS",
-			"description" : "CADA UNIDAD <y>MONTACARGAS</c> ESTÁ DEBIDAMENTE EQUIPADA Y LISTA PARA EL SERVICIO. CONSTRUIDA CON MATERIALES DE ALTA CALIDAD PARA UN RENDIMIENTO MÁXIMO EN EL TRABAJO. ESTE MODELO INCLUYE EL <y>CONJUNTO DE HERRAMIENTAS FORRAJERO</c>, PERFECTO PARA <y>CAZA</c>, <y>EXPLORACIÓN</c> Y OTRAS TAREAS PELIGROSAS DESTINADAS AL USUARIO COMÚN. PARA INICIALIZAR, INDIQUE UNA DIRECTIVA DURANTE EL ARRANQUE DEL SISTEMA.",
-			"endQuote" : "..y se marchó, pistones chirriando, dirección indefinida.",
+			"description" : "CADA UNIDAD <y>MONTACARGAS</c> ESTÁ DEBIDAMENTE EQUIPADA Y LISTA PARA EL SERVICIO. CONSTRUIDA CON MATERIALES DE ALTA CALIDAD PARA UN RENDIMIENTO MÁXIMO EN EL TRABAJO. ESTE MODELO INCLUYE UN <y>GRAN CONJUNTO DE HERRAMIENTAS MULTIUSOS</c>, PERFECTO PARA <y>CAZA</c>, <y>EXPLORACIÓN</c> Y OTRAS TAREAS PELIGROSAS DESTINADAS AL USUARIO COMÚN. PARA INICIALIZAR, INDIQUE UNA DIRECTIVA DURANTE EL ARRANQUE DEL SISTEMA.",
+			"endQuote" : "..y se marchó, pistones chirriando, misión indefinida.",
 			"story": "AVISO: Las unidades MONTACARGAS no son conscientes ni mascotas. Llamarlas ''Molly'' no afectará en absoluto la programación de la unidad MONTACARGAS.",
 			"id" : "",
 			"departure" : "",
@@ -35,23 +50,23 @@
 		"nemesisCommando" : {
 			"name" : "Comando Némesis",
 			"nameUpper" : "COMANDO NÉMESIS",
-			"description" : "El <y>Comando Némesis</c> es un personaje flexible con el arsenal suficiente para enfrentarse a cualquier situación. <y>Hiere</c> a los enemigos usando <y>Misericordia</c> como preparación para infligir un daño devastador con el resto de tus habilidades. Utiliza <y>Evasión Táctica</c> para entrar y salir del combate cuerpo a cuerpo, y convertir hasta el peor escenario en una ventaja.",
+			"description" : "El <y>Comando Némesis</c> es un personaje flexible con el arsenal suficiente para enfrentarse a cualquier situación. <y>Inflinje hemorragia</c> a los enemigos usando <y>Misericordia</c> como preparación para infligir un daño devastador con el resto de tus habilidades. Utiliza <y>Evasión Táctica</c> para entrar y salir del combate cuerpo a cuerpo, y convertir hasta el peor escenario en una ventaja.",
 			"endQuote": "..y se marchó, llevando consigo un nuevo sentido de humanidad.",
-			"story" : "<b>REGISTRO DE DATOS DE CAMPO NO REGISTRADO: ÚLTIMA MODIFICACIÓN EN [##090??!?]</c> \n<r>[ERROR 0x00000ce: Paquete de Datos Corrupto, viendo punto de restauración.]</c> \n\n<ul>[Entrada 1]</c> La patrulla recogió a un sobreviviente herido a pocos kilómetros del campamento. Se rumorea que “apareció de la nada” (como si me fuera a creer eso), ya que no hay nada en los alrededores que indique de dónde vino. Sea como sea, un sobreviviente es un sobreviviente. Mientras escribo esto, lo llevamos de vuelta. No lo pone fácil, eso sí, por el peso del equipo que lleva. Tiene unas modificaciones poco comunes en una armadura estándar de Comando. Parece ser, o haber sido, un modelo Mk. 1 de primera emisión (¿Aunque creo recordar que dejaron de producirlo hace años?). \n\n<ul>[Entrada 2]</c> Actualización: el sujeto porta artillería peligrosamente pesada para ser un Comando: Un lanzacohetes aún caliente al tacto y unas granadas que parecen claramente alienígenas, Jamás habia visto algo parecido. Está inconsciente, y por lo que vemos a través del casco, bastante golpeado. Su brazo izquierdo está rígido, tiene la mano cerrada con fuerza sobre la empuñadura de su vibrocuchilla. Intentamos verla mejor, pero es como si su puño estuviera fusionado con esa cosa. Además, está cubierta con una sustancia negra endurecida. No sabemos si fue por una pelea entre sobrevivientes o evidencia de algún tipo de auto defe??!0049### \n<r>[Fin de datos legibles.]</c> \n\n<ul>[Entrada 2a]</c> no sé cuánto tiempo tengo mientras escribo esto se despertó y el campamento está DESTRUIDO la gente no para de sangrar no sabemos ni siquiera si era humano con lo que puede hacer, nadie supo qué hacer fue directo a por Adrian \n no sabemos qué lo provocó??? qué HICIMOS para merecer esto??? por qué esa COSA nos atacó U!??!?##$0959090302???! \n<r>[Fin de datos legibles.]</c> \n\n<p>Las tábanas se ?reunen s?obre esta no?ble be?stia mie?ntras p?asta. \n\n Tu pla?ga en su s?uperficie s?erá err?adi?cada... \n\n Por es?tas man?os labo?rosas.</c>"
+			"story" : "<b>REGISTRO DE DATOS DE CAMPO NO REGISTRADO: ÚLTIMA MODIFICACIÓN EN [##090??!?]</c> \n<r>[ERROR 0x00000ce: Paquete de Datos Corrupto, buscando punto de restauración.]</c> \n\n<ul>[Entrada 1]</c> La patrulla recogió a un sobreviviente herido a pocos kilómetros del campamento. Se rumorea que “apareció de la nada” (como si me fuera a creer eso), ya que no hay nada por los alrededores que pueda indicar de dónde vino. Sea como sea, un sobreviviente es un sobreviviente. Mientras escribo esto, lo llevamos de vuelta. No lo pone fácil, eso sí, por el peso del equipo que lleva. Tiene unas modificaciones poco comunes en una armadura estándar de Comando. Parece ser, o haber sido, un modelo Mk. 1 de primera emisión (¿Aunque creo recordar que dejaron de producirlo hace años?). \n\n<ul>[Entrada 2]</c> Actualización: el sujeto porta artillería peligrosamente pesada para ser un Comando: Un lanzacohetes aún caliente al tacto y unas granadas que parecen claramente alienígenas, Jamás habia visto algo parecido. Está inconsciente, y por lo que vemos a través del casco, bastante golpeado. Su brazo izquierdo está rígido, tiene la mano cerrada con fuerza sobre la empuñadura de su vibrocuchilla. Intentamos verla mejor, pero es como si su puño estuviera fusionado con esa cosa. Además, está cubierta con una sustancia negra endurecida. No sabemos si fue por una pelea entre sobrevivientes o evidencia de algún tipo de auto defe??!0049### \n<r>[Fin de datos legibles.]</c> \n\n<ul>[Entrada 2a]</c> no sé cuánto tiempo tengo mientras escribo esto se despertó y el campamento está DESTRUIDO la gente no para de sangrar no sabemos ni siquiera si era humano con lo que puede hacer, nadie supo qué hacer fue directo a por Adrian \n no sabemos qué lo provocó??? qué HICIMOS para merecer esto??? por qué esa COSA nos atacó U!??!?##$0959090302???! \n<r>[Fin de datos legibles.]</c> \n\n<p>Las tábanas se ?reunen s?obre esta no?ble be?stia mie?ntras p?asta. \n\n Tu pla?ga en su s?uperficie s?erá err?adi?cada... \n\n Por es?tas man?os labo?rosas.</c>"
 		},
 		"nemesisMercenary" : {
 			"name" : "Mercenario Némesis",
 			"nameUpper" : "MERCENARIO NÉMESIS",
 			"description" : "The <y>Nemesis Mercenary</c> was born with a special power.",
-			"endQuote": "..y se marchó, equipado para más.",
+			"endQuote": "...y se marchó, equipado para más.",
 			"story": "<p>I DON'T NEED NO FRIENDS\nI DON'T NEED NO PHONE\nJUST A BAG OF SEVERED HEADS\nAND MY NUCLEAR THRONE</c>"
 		},
 		"technician": {
 			"name": "Técnico",
 			"nameUpper": "TÉCNICO",
-			"description": "El <y>Técnico</c> es experto en hacer y mantener zonas que bloquean el avance de los enemigos. <y>Cierre Forzado</c> puede <y>bloquear una zona forzadamente</c> al ser mejorado. <y>Mejorar</c> dispositivos aumenta su efectividad, ¡pero ten cuidado haciendolo en entornos peligrosos!",
-			"endQuote": "..y se marchó, simplemente reiniciando la nave.",
-			"story" : "<ul>Detalles del Pasajero:\n<g>[Clase Empleado]\n\n<ul>Detalles del Empleado:</c>\nEmpleado contratado para trabajar en el lugar durante toda la duración del viaje programado de la UES Contact Light, con el fin de realizar mantenimiento en maquinaria en caso de que surjan problemas técnicos a bordo de la nave. Empleado calificado con 6 años de experiencia práctica en ingeniería de software y hardware.\n\n<ul>Equipaje:</c>\nEl empleado abordó con un traje espacial de soldadura Durarend, calificado con alta resistencia al vacío, además de ropa de cuero y tela diseñada para uso planetario. Se notificó al empleado que la ropa podría rasgarse en caso de un evento de vacío. Seguridad marcó la llave inglesa de gran tamaño que portaba por parecer poco práctica y potencialmente peligrosa. Al ser cuestionado, el empleado indicó que fue ''hecha a medida... para los trabajos más duros''. Siguiendo el procedimiento, la llave fue trasladada a una caja de seguridad automatizada en la bahía de carga 1a. La inspección restante del equipaje reveló varias llaves inglesas de emisión estándar, 3 USBs codificados por color, un portátil modelo GeForm 2047, cajas de herramientas y una herramienta de soldadura. Los USBs fueron inspeccionados en una computadora desechable QPuting de la compañía equipada con ReoVirus Detector v1.6.2. No se detectaron rastros de malware y los archivos almacenados están en formato UPG, conteniendo planos de varios dispositivos. El empleado fue autorizado a continuar sin más dificultades.\n\n<b>[REGISTRO DE SEGURIDAD]</c>\n<ul>- [Suceso T1]</c> Empleado retirado por la fuerza de la cabina durante los preparativos de despegue al negarse a salir después de conversar con el piloto de la nave durante varias horas.\n<ul> [Suceso T2]</c> Empleado observado robando refrescos de una máquina expendedora.\n<ul> [Suceso T3]</c> Bloqueo automatizado originado en la bahía de carga 4a fue resuelto por el empleado.\n<ul> [Suceso T4]</c> El estado de la cápsula de escape B-08 cambió de ERROR a ALERTA después de que el empleado fue solicitado por el personal de la nave para realizar un diagnóstico. Se instruyó al personal de seguridad a investigar.\n<ul> [Suceso T1a]</c> Se reportó además que el empleado manipuló el panel de control de la cabina para que fuera ''más fácil de manejar''. El lanzamiento programado se retrasó y se instruyó al empleado a revertir cualquier modificación realizada.",
+			"description": "El <y>Técnico</c> es experto en hacer y mantener zonas que bloquean el avance de los enemigos. <y>Desactivación Forzada</c> puede ayudarte a<y>bloquear una zona</c> al ser mejorado. <y>Mejorar</c> dispositivos aumenta su efectividad, ¡pero ten cuidado haciendolo en entornos peligrosos!",
+			"endQuote": "..y se marchó, con un simple reinício a la nave.",
+			"story" : "<ul>Detalles del Pasajero:\n<g>[Clase Empleado]\n\n<ul>Detalles del Empleado:</c>\nEmpleado contratado para trabajar en el lugar durante toda la duración del viaje programado de la UES Contact Light, con el fin de realizar mantenimiento en maquinaria en caso de que surjan problemas técnicos a bordo de la nave. Empleado cualificado con 6 años de experiencia práctica en ingeniería de software y hardware.\n\n<ul>Equipaje:</c>\nEl empleado abordó con un traje espacial de soldadura Durarend, con alta resistencia al vacío, además de ropa de cuero y tela diseñada para uso planetario. Se notificó al empleado que la ropa podría rasgarse en caso de un evento de vacío. Seguridad marcó la llave inglesa de gran tamaño que portaba por parecer poco práctica y potencialmente peligrosa. Al ser cuestionado, el empleado indicó que fue ''hecha a medida... para los trabajos más duros''. Siguiendo el procedimiento, la llave fue trasladada a una caja de seguridad automatizada en la bahía de carga 1a. La inspección restante del equipaje reveló varias llaves inglesas de emisión estándar, 3 USBs codificados por color, un portátil modelo GeForm 2047, cajas de herramientas y una herramienta de soldadura. Los USBs fueron inspeccionados en una computadora desechable QPuting de la compañía equipada con ReoVirus Detector v1.6.2. No se detectaron rastros de malware y los archivos almacenados están en formato UPG, conteniendo planos de varios dispositivos. El empleado fue autorizado a continuar sin más dificultades.\n\n<b>[REGISTRO DE SEGURIDAD]</c>\n<ul>- [Suceso T1]</c> Empleado retirado por la fuerza de la cabina durante los preparativos de despegue al negarse a salir después de conversar con el piloto de la nave durante varias horas.\n<ul> [Suceso T2]</c> Empleado observado robando refrescos de una máquina expendedora.\n<ul> [Suceso T3]</c> Bloqueo automatizado originado en la bahía de carga 4a fue resuelto por el empleado.\n<ul> [Suceso T4]</c> El estado de la cápsula de escape B-08 cambió de ERROR a ALERTA después de que el empleado fue solicitado por el personal de la nave para realizar un diagnóstico. Se instruyó al personal de seguridad a investigar.\n<ul> [Suceso T1a]</c> Se reportó además que el empleado manipuló el panel de control de la cabina para que fuera ''más fácil de manejar''. El lanzamiento programado se retrasó y se instruyó al empleado a revertir cualquier modificación realizada.",
 			"id" : "Travel ID: 54E4F4C434F59474E454",
 			"departure" : "<y>Origen:</c>\nMuelle de Carga 5 de la UES,\nRedview,\nMarte",
 			"arrival" : "<y>Destino:</c>\nMuelle de Carga 0 de la UES,\nRedview,\nMarte"
@@ -59,23 +74,23 @@
 	},
 	"skill" : {
 		"executionerZ": {
-			"name": "Pistola estándar",
+			"name": "Pistola Estándar",
 			"description": "Haz un disparo que inflinge <y>100% de daño.</c>"
 		},
 		"executionerX": {
 			"name": "Ráfaga Iónica",
-			"description": "Dispara una ráfaga de balas ionizadas que inflingen <y>320% de daño</c> cada una.\nConsigue balas matando enemigos."
+			"description": "Descarga una ráfaga de balas ionizadas que inflingen <y>320% de daño</c> cada una.\nConsigues balas matando enemigos."
 		},
 		"executionerC": {
-			"name": "Disuasión masiva",
-			"description": "<y>Te lanza hacia delante, asustando a enemigos cercanos</c>.\n<b>No puedes ser golpeado</c> mientras te desplazas."
+			"name": "Disuasión Masiva",
+			"description": "<y>Impulsate hacia delante, asustando a enemigos cercanos</c>.\n<b>No puedes ser golpeado</c> mientras te desplazas."
 		},
 		"executionerV": {
 			"name": "Ejecución",
 			"description": "Te elevas y desciendes con fuerza, impactando con un hacha proyectada que inflinge <y>1000% de daño.</c>\nCada ejecución exitosa <y>reduce por un segundo la recarga de las habilidades."
 		},
 		"executionerVBoosted": {
-			"name": "Ejecución colectiva",
+			"name": "Ejecución Colectiva",
 			"description": "Te elevas y desciendes con fuerza, impactando con un hacha proyectada que inflinge <y>1500% de daño,</c> <b>aterrorizando a los enemigos.</c>\nCada ejecución exitosa <y>reduce por un segundo la recarga de las habilidades."
 		},
 		"executionerV2": {
@@ -91,7 +106,7 @@
 			"description": "GOLPEA A LOS ENEMIGOS INFLINGIENDO <y>200% DE DAÑO</c>. MANTEN PRESIONADO PARA CARGAR Y APLASTAR A LOS ENEMIGOS INFLINGIENDO <y>1400% DE DAÑO</c>."
 		},
 		"muleX": {
-			"name": "INMOBILIZAR",
+			"name": "INMOBILIZACIÓN",
 			"description": "DISPARA UNA TRAMPA QUE INFLINGE <y>125% DE DAÑO</c>. LA TRAMPA <b>ATRAPA</c> HASTA <y>5 ENEMIGOS</c> EN LA PROXIMIDAD DEL OBJETIVO."
 		},
 		"muleC": {
@@ -112,11 +127,11 @@
 		},
 		"nemesisCommandoX": {
 			"name": "Toque Singular",
-			"description": "Dispara a un enemigo inflingiendo <y>200% de daño</c>.\n<b>Puedes acumular hasta 4.</c> Recarga <b>2</c> balas cuando <b>ruedes</c>."
+			"description": "Dispara a un enemigo inflingiendo <y>200% de daño</c>.\n<b>Puedes acumular hasta 4.</c> Recargas <b>2</c> balas usando <b>Evasión Táctica</c>."
 		},
 		"nemesisCommandoX2": {
 			"name": "Tajo Distante",
-			"description": "Corta en línea recta hacia delante e inflige <y>90% de daño</c>, <r>hiriendo</c> a los enemigos golpeados durante 6 segundos."
+			"description": "Corta en línea recta hacia delante e inflige <y>90% de daño</c>, <r>hiriendo</c> a todos los enemigos golpeados durante 6 segundos."
 		},
 		"nemesisCommandoC": {
 			"name": "Evasión Táctica",
@@ -124,11 +139,11 @@
 		},
 		"nemesisCommandoV": {
 			"name": "Desalojo",
-			"description": "Lanza una <y>granada</c> que inflinge <y>700% de daño</c>. Manten presionado para <b>cocinar</c> la granada.\nPulsa la dirección <b>abajo</c> para <y>lanzarla</c> en un arco bajo."
+			"description": "Lanza una <y>granada</c> que inflinge <y>700% de daño</c>. Manten presionado para <b>cargar</c> la granada.\nPulsa la dirección <b>abajo</c> para <y>lanzarla</c> en un arco bajo."
 		},
 		"nemesisCommandoVBoosted": {
 			"name": "Bombardeo",
-			"description": "Lanza una <y>granada</c> que inflinge <y>700% de daño</c>, <y>aturdiendo</c> enemigos y <y>dividiendose en 3</c> granadas que inflingen <y>3x150% de daño.</c>\nManten presionado para <b>cocinar</c> la granada.\nPulsa la dirección <b>abajo</c> para <y>lanzarla</c> en un arco bajo."
+			"description": "Lanza una <y>granada</c> que inflinge <y>700% de daño</c>, <y>aturdiendo</c> a los enemigos y <y>dividiendose en 3</c> granadas que inflingen <y>3x150% de daño.</c>\nManten presionado para <b>cargar</c> la granada.\nPulsa la dirección <b>abajo</c> para <y>lanzarla</c> en un arco bajo."
 		},
 		"nemesisCommandoV2": {
 			"name": "Devastador",
@@ -159,7 +174,7 @@
 			"description": "Target the weakest enemy in front of you, attacking them for <y>1100% damage</c>, dealing <y>+50% TOTAL damage</c> to <y>stunned</c> enemies.</c> \n<b>You cannot be hit for the duration</c>."
 		},
 		"technicianZ": {
-			"name": "Calibrar",
+			"name": "Calibración",
 			"description": "Golpea hacia delante con una llave inglesa que inflinge <y>180% de daño.\n<y>Golpear dispositivos</c> 3 veces <b>los mejorará temporalmente durante 30 segundos."
 		},
 		"technicianZ2": {
@@ -167,7 +182,7 @@
 			"description": "Lanza una llave inglesa hacia adelante, atravesando hasta 3 enemigos inflingiendo un <y>180% de daño.\n<y>Golpear dispositivos</c> 3 veces <b>los mejorará</c> <r>temporalmente durante 20 segundos."
 		},
 		"technicianX": {
-			"name": "Cierre Forzado",
+			"name": "Desactivación Forzada",
 			"description": "Lanza una bomba que inflinge <y>500% de daño</c> cuando es reactivada.\n <y>Aturde</c> y atrae a los enemigos pasivamente cuando es <b>mejorada."
 		},
 		"technicianX2": {
@@ -179,7 +194,7 @@
 			"description": "Coloca una <b>máquina expendedora</c> que mejora tu <b>movimiento</c> y <y>velocidad de ataque</c>.</c>\nAdicionalmente aumenta la <y>probabilidad de ataque crítico</c> cuando es <b>mejorada."
 		},
 		"technicianC2": {
-			"name": "Radial Amplifier",
+			"name": "Amplificador Radial",
 			"description": "Deploy an <b>antenna</c> that deals <y>15% additional damage</c> to attacked enemies.\nHas <y>100% critical strike chance</c> when <b>upgraded."
 		},
 		"technicianV": {
@@ -261,7 +276,7 @@
 			"priority": "Estándar"
 		},
 		"coffeeBag" : {
-			"name" : "Bolsa de Cadé",
+			"name" : "Bolsa de Café",
 			"pickup" : "Activar un interactuable aumenta la velocidad de movimiento y de ataque.",
 			"description": "Activar un objeto interactivo <y>aumenta la velocidad de movimiento y ataque</c> en un <b>22%</c> durante <b>10 <c_stack>(+5 por acumulación)</c> segundos</b>..",
 			"destination": "n1,\nLa Capital,\nUES PRIMORDIAL",
@@ -296,7 +311,7 @@
 			"priority" : "<r>Volátil</c>"
 		},
 		"huntersSigil" : {
-			"name": "Sigilo del Cazasor",
+			"name": "Sigilo del Cazador",
 			"pickup" : "Permanecer quieto crea una zona que aumenta la armadura y la probabilidad de golpe crítico.",
 			"description": "Después de estar quieto 1 segundo, crea una <y>zona pequeña</c> que otorga a ti y a tus aliados <b>15 <c_stack>(+10 por acumulación)</c> de armadura</b> y <y>25% <c_stack>(+20% por acumulación)</c> de probabilidad de crítico</y>.",
 			"destination" : "2Este,\nEdificio Beckham,\nTierra",
@@ -342,7 +357,7 @@
 		},
 		"malice" : {
 			"name": "Malicia",
-			"pickup" : "El Daño se propaga a enemigos cercanos.",
+			"pickup" : "El daño se propaga entre enemigos cercanos.",
 			"description": "Los ataques <p>se propagan a enemigos cercanos</c> infligiendo un <y>50% de daño TOTAL</c> a hasta <y>1 <c_stack>(+1 por acumulación)</c> objetivo(s) dentro de <y>4,2 m <c_stack>(+1 m por acumulación)</c.",
 			"destination" : "P24,\nRomeo,\nEstación Pol-A",
 			"date" : "02/11/2056",
@@ -466,13 +481,11 @@
 		"Overseer.text" : "Acechador entre Planos",
 		"mechanicalTotem.name" : "Totem Mecánico",
 		"mechanicalTotem.text" : "Sistema de Defensa Automatizado",
-		"archerbugHive.name" : "Colmena de Bichos arqueros",
+		"archerbugHive.name" : "Colmena de Bichos Arqueros",
 		"archerbugHive.text" : "not on wiki idk",
 		"sandcrabKing.name" : "Cangrejo de Arena Rey ",
 		"sandcrabKing.text" : "Monstruosidad Endurecida",
 		"Gatekeeper.name" : "Centinela",
-		"ultraProvi.name" : "Providencia Ultra",
-		"ultraProvi.text" : "Desenlace Soberano",
 		"Arraing.name" : "Veredicto",
 		"Arraign.text" : "El Juez",
 		"Protector.name" : "Protector",
@@ -490,8 +503,8 @@
 	"interactable" : {
 		"TeleporterEthereal.text" : "Activar Teletransportador Etéreo.",
 		"TeleporterEthereal.text2" : "¡Esto incrementara la dificultad radicalmente!",
-		"MimicInactive.text" : "..?",
-		"MimicInactive.name" : "Cofre Grande..?",
+		"MimicInactive.text" : "...?",
+		"MimicInactive.name" : "Cofre Grande...?",
 		"DroneHackItem.text" : "Reparar Dron de Hackeo",
 		"DroneHackItem.name" : "Dron de Hackeo roto"
 	},
@@ -500,14 +513,21 @@
 		"poison.name" : "Venenoso %s",
 		"ethereal.name" : "Etéreo %s",
 		"ethereal.text" : "Testigo Transcendente",
+		"empyrean.name" : "<cycle 0 64 128 192>Empíreo %s</cycle>",
+		"empyrean.text" : "Heraldo del Juicio",
+		"empyrean.worm" : "Leviatán Prismático"
 	},
 	"stage" : {
 		"whistlingBasin.name" : "Cuenca Silbante",
 		"whistlingBasin.subname" : "Oasis Menguante",
-		"whistlingBasin.story" : "Este planeta sigue reservándome sorpresas. Teniendo en cuenta las acciones de sus habitantes antes de llegar aquí, nunca habría imaginado que tales criaturas pudieran construir una arquitectura tan extensa y decadente. Impresionantes pilares de ébano profundo y arcos hechos de piedra hermosa que se alzan desde el suelo, todos adornados con grabados realizados por manos deliberadas. A lo largo de las paredes, hay unas exhibiciones increíblemente intrincadas de formas que, aunque parecen simples, esconden complejidad. Un follaje turquesa, extrañamente peculiar, ataca las estructuras, trepando sutilmente por sus bases. Parece que la idea preconcebida de salvajismo que tenía sobre este planeta está desapareciendo. Aun así, mantengo la guardia alta. Es demasiado pronto para descansar, a pesar de las protestas de mis músculos doloridos.",
+		"whistlingBasin.story" : "Este planeta sigue dandome sorpresas. Teniendo en cuenta las acciones de sus habitantes antes de llegar aquí, nunca habría imaginado que tales criaturas pudieran construir una arquitectura tan extensa y decadente. Impresionantes pilares de ébano profundo y arcos hechos de piedra hermosa que se alzan desde el suelo, todos adornados con grabados realizados por manos deliberadas. A lo largo de las paredes, hay unas exhibiciones increíblemente intrincadas de formas que, aunque parecen simples, esconden complejidad. Un follaje turquesa, extrañamente peculiar, ataca las estructuras, trepando sutilmente por sus bases. Parece que la idea preconcebida de salvajismo que tenía sobre este planeta está desapareciendo. Aun así, mantengo la guardia alta. Es demasiado pronto para descansar, a pesar de las protestas de mis músculos doloridos.",
 
-		"torridOutlands.name" : "Tierras Torridas",
+		"torridOutlands.name" : "Tierras Ardientes",
 		"torridOutlands.subname" : "Quemadura Silenciosa",
-		"torridOutlands.story" : "Incluso con mi traje, puedo sentir los pulsantes rayos solares impactar y doblar la atmósfera de este planeta maldito por los dioses. Cada vez me cuesta más mantener la cordura con este calor, y la condensación que empieza a empañar las paredes de mi casco tampoco ayuda. Aunque, sin él, mis pulmones estarían a medio llenar de todo el polvo y los restos que he levantado durante mis andanzas-“buscar el lado positivo”, como dicen. Con el sol en lo alto, siquiera imaginar recorrer mi entorno con cierta facilidad es un sueño imposible. Me resulta fácil tropezar con cactus y rocas en mi delirio, encontrando breves refugios dentro de esos extensos túneles y cuevas que salpican la superficie. Con el terreno tan abrupto ralentizando mi avance, el sudor que me gotea por la frente hacia los ojos será, con seguridad, el menor de mis problemas."
+		"torridOutlands.story" : "Incluso con mi traje, puedo sentir los pulsantes rayos solares impactar y doblar la atmósfera de este planeta maldito por los dioses. Cada vez me cuesta más mantener la cordura con este calor, y la condensación que empieza a empañar las paredes de mi casco tampoco ayuda. Aunque, sin él, mis pulmones estarían a medio llenar de todo el polvo y los restos que he levantado durante mis andanzas-“buscar el lado positivo”, como dicen. Con el sol en lo alto, siquiera imaginar recorrer mi entorno con cierta facilidad es un sueño imposible. Me resulta fácil tropezar con cactus y rocas en mi delirio, encontrando breves refugios dentro de esos extensos túneles y cuevas que salpican la superficie. Con el terreno tan abrupto ralentizando mi avance, el sudor que me gotea por la frente hacia los ojos será, con seguridad, el menor de mis problemas.",
+		
+		"verdantWoodland.name" : "Arboleda Esmeralda",
+		"verdantWoodland.subname" : "Fronda Viviente",
+		"verdantWoodland.story" : "Un laberinto de los árboles más grandes que haya visto se despliega frente a mí, una maravilla natural opresiva, con escamas de corteza y dientes como astillas. Estos pilares de madera se alzan sin fin, protegiendo esta rica acrópolis; su presencia abrumadora me hace reflexionar sobre mis acciones mientras abro camino a la fuerza a través del sobrecrecimiento. Difícilmente puedo culpar a estas espinas afiladas que se clavan en mi traje: con cada paso punzante, me recuerdan que solo soy un invitado en su fortaleza. Nidos rebosantes de insectos estallan con sus caballeros, guiándome lejos de sus crías, tal como tú o yo haríamos con las nuestras. Puedo oír enjambres de insectos enfurecidos sobre mi cabeza, trinan como cantos de aves. Me recuerda a casa. No deseo más que recostarme en la hierba exuberante que este increíble planeta ha ofrecido, pero debo seguir avanzando. Punzadas de melancolía me hieren por dentro. Este veneno persistente que recorre mis venas me da la voluntad para seguir luchando... y sin embargo, no puedo evitar lamentar su presencia. Temo que este planeta esté empezando a afectarme a la cabeza."
 	}
 }
